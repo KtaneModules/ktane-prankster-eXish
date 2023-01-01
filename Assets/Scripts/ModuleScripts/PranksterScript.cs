@@ -24,6 +24,7 @@ public class PranksterScript : ModuleScript
 
     internal bool Dangerous { get; set; }
 
+    [Obsolete]
     private void Start()
     {
         OnModuleStrikeEvent = () => { };
@@ -53,9 +54,9 @@ public class PranksterScript : ModuleScript
         currentComet = factories.PickRandom().Generate(Particles, this);
     }
 
-    public override void OnModuleStrike(string moduleId)
+    public override void OnModuleStrike(ModuleContainer module)
     {
-        base.OnModuleStrike(moduleId);
+        base.OnModuleStrike(module);
 
         OnModuleStrikeEvent();
     }
@@ -71,7 +72,7 @@ public class PranksterScript : ModuleScript
 
     public void OnCosmic()
     {
-        if (Dangerous)
+        if(Dangerous)
         {
             Strike("You ran into the cosmic shadow!");
             currentComet.Destroy();

@@ -17,7 +17,7 @@ MonoBehaviour:
   description: "Deal with challenges from various Prankster Comets in this needy module.\n\r\nThis
     is a reuploaded item from a creator who wishes to remain anonymous.\r\n\r\nHTML:
     https://ktane.timwi.de/HTML/Prankster.html\r\nPDF: https://ktane.timwi.de/PDF/Prankster.pdf\r\n\r\nPrankster
-    (prankster) v1.4.1\nMaintained by eXish\r"
-  version: 1.4.1
+    (prankster) v1.4.2\nMaintained by eXish\r"
+  version: 1.4.2
   outputFolder: build
   previewImage: {fileID: 2800000, guid: c84eac81d5f88884196ae7bc95edfa20, type: 3}

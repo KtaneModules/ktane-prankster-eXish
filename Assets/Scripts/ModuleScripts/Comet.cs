@@ -68,7 +68,7 @@ internal class CosmicComet : IComet
         script.Dangerous = true;
 
         Vector2 localMousePosition = script.CosmicOrb.InverseTransformPoint(Input.mousePosition);
-        if (script.CosmicOrb.rect.Contains(localMousePosition))
+        if(script.CosmicOrb.rect.Contains(localMousePosition))
         {
             script.Strike("You ran into the cosmic shadow!");
             script.currentComet.Destroy();
