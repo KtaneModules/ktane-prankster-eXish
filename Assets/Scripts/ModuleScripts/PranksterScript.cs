@@ -16,7 +16,7 @@ public class PranksterScript : ModuleScript
 
     private Queue<Vector2> MousePath = new Queue<Vector2>(new Vector2[] { new Vector2(), new Vector2(), new Vector2(), new Vector2(), new Vector2(), new Vector2(), new Vector2(), new Vector2(), new Vector2(), new Vector2(), new Vector2(), new Vector2(), new Vector2(), new Vector2(), new Vector2(), new Vector2(), new Vector2(), new Vector2(), new Vector2(), new Vector2(), new Vector2(), new Vector2(), new Vector2(), new Vector2(), new Vector2(), new Vector2(), new Vector2(), new Vector2(), new Vector2(), new Vector2(), new Vector2(), new Vector2(), new Vector2(), new Vector2(), new Vector2(), new Vector2(), new Vector2(), new Vector2(), new Vector2(), new Vector2(), new Vector2(), new Vector2(), new Vector2(), new Vector2(), new Vector2(), new Vector2(), new Vector2(), new Vector2(), new Vector2(), new Vector2(), new Vector2(), new Vector2(), new Vector2(), new Vector2(), new Vector2(), new Vector2(), new Vector2(), new Vector2(), new Vector2(), new Vector2() });
 
-    private IComet currentComet = null;
+    internal IComet currentComet = null;
 
     private static readonly CometFactory[] factories = new CometFactory[] { new DaredevilCometFactory(), new CosmicCometFactory(), new PurpleCometFactory() };
 
@@ -71,7 +71,7 @@ public class PranksterScript : ModuleScript
 
     public void OnCosmic()
     {
-        if(Dangerous)
+        if (Dangerous)
         {
             Strike("You ran into the cosmic shadow!");
             currentComet.Destroy();
