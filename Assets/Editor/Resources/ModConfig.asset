@@ -13,11 +13,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: prankster
   title: Prankster
-  author: BakersDozenBagels
-  description: 'Deal with challenges from various Prankster Comets in this needy module.
-
-
-    Id: prankster'
-  version: 1.2
+  author: eXish
+  description: "Deal with challenges from various Prankster Comets in this needy module.\n\r\nThis
+    is a reuploaded item from a creator who wishes to remain anonymous.\r\n\r\nHTML:
+    https://ktane.timwi.de/HTML/Prankster.html\r\nPDF: https://ktane.timwi.de/PDF/Prankster.pdf\r\n\r\nPrankster
+    (prankster) v1.4.0\r\nMaintained by eXish\r"
+  version: 1.4.0
   outputFolder: build
-  previewImage: {fileID: 2800000, guid: 0e5c23372d9734342ad30cdb4e579c68, type: 3}
+  previewImage: {fileID: 2800000, guid: c84eac81d5f88884196ae7bc95edfa20, type: 3}

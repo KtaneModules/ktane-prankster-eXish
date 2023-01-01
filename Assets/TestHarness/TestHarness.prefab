@@ -20001,7 +20001,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b50a3b2793c74c16b6b8535c49396ba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ModuleID: 0
+  Id: 0
   IDTextMesh: {fileID: 102703252448979334}
   Module: {fileID: 0}
   BombModule: {fileID: 0}
@@ -20159,18 +20159,15 @@ MonoBehaviour:
   HighlightPrefab: {fileID: 100000, guid: d78a484c6e87f1b47b6596ac080fe942, type: 2}
   AudioVolume: 0.25
   AudioClips:
-  - {fileID: 8300000, guid: c786cdcb7bf1ef6448f3a96559818836, type: 3}
-  - {fileID: 8300000, guid: a2e9d43cc71994445ad86a4dca6fdd37, type: 3}
-  - {fileID: 8300000, guid: fe4c49661849d284c878a618bfcb8036, type: 3}
-  - {fileID: 8300000, guid: 77a852743225a32418f055ae642f0189, type: 3}
-  - {fileID: 8300000, guid: d3aeb48b5c6b8e44e8c1eb4a06d0c4d6, type: 3}
-  - {fileID: 8300000, guid: c8eabaa385f90bb4aa730abc1595778f, type: 3}
+  - {fileID: 8300000, guid: f2fa0d1a5b9d4af418252cce2b2ea722, type: 3}
+  - {fileID: 8300000, guid: 6634228e5da2eca40a3c24d43ee9ae95, type: 3}
+  - {fileID: 8300000, guid: 252b1db30e9fb4243901b1ea9e6b3f85, type: 3}
   StrikeCount: 500
-  TimeLimit: 600
+  TimeLimit: 6000
   BombSize: 1
   FrontFaceOnly: 1
   EdgeworkConfiguration: {fileID: 0}
-  TwitchPlaysActive: 1
+  TwitchPlaysActive: 0
   TwitchPlaysMode: 0
   turnSpeed: 128
   panSpeed: 4
